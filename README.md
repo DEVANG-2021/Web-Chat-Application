@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Chat Application</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        .icon {
-            color: #007bff;
-            margin-right: 10px;
-        }
-        pre {
-            background: #333;
-            color: #fff;
-            padding: 15px;
-            border-radius: 5px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-        .screenshots img {
-            width: 100%;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
+
         <h1><i class="fas fa-comments icon"></i>Web Chat Application</h1>
         <p>This repository contains a real-time web chat application built using Node.js for the backend and HTML, CSS, and JavaScript for the frontend. The application utilizes Socket.io for efficient real-time message communication, providing a professional user interface and a seamless user experience.</p>
         
