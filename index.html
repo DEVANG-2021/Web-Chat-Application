@@ -243,8 +243,6 @@
                 $("#messageInp").css({ "background-color": "#161616", "color": "white" });
 
             });
-
-
         });
     </script>
 
@@ -275,18 +273,14 @@
 
         </script>
     <!-- Java Script Portion-->
-    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
     <script>
         var socket = io();
 
         const form = document.getElementById('send-container');
         const messageInput = document.getElementById('messageInp');
         const messageContainer = document.querySelector('.container');
-       
-        
-         
-
-
+    
         const append = (message, position) => {
             const messageElement = document.createElement('div');
             messageElement.innerText = message;
