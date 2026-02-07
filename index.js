@@ -9,6 +9,8 @@ const io = require('socket.io')(server);
 const hostname = '0.0.0.0';
 const port = process.env.PORT || 3000;
 
+app.use(express.static(__dirname));
+
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
   });
